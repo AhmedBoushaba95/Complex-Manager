@@ -1,1 +1,3 @@
-function verif_nbr(
+<?php
+
+function verif_nbr($_POST)
