@@ -11,6 +11,13 @@
     <input type="text" name="ima" placeholder="Imaginaire">
     <input type="submit" value="Afficher">
 </form>
-
+<?php
+if ($_GET['erreur'] == "ko")
+{
+    ?>
+    <p>Veuillez remplir tous les champs</p>
+    <?php
+}
+?>
 </body>
 </html>
