@@ -25,7 +25,9 @@ if ($_GET['erreur'] == "ko")
 
 if ($_GET['erreur'] == "ok")
 {
-   verif_nbr($_POST['ree'], $_POST['ima']);
+    $ree = $_POST['ree'];
+    $ima = $_POST['ima'];
+   verif_nbr($ree, $ima);
  }
 ?>
 </body>
