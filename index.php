@@ -18,6 +18,13 @@ if ($_GET['erreur'] == "ko")
     <p>Veuillez remplir tous les champs</p>
     <?php
 }
+
+if ($_GET['erreur'] == "ok")
+{
+    ?>
+    verif_nbr();
+    <?php
+}
 ?>
 </body>
 </html>
