@@ -1,6 +1,6 @@
 <?php
 
-function verif_nbr($_POST)
+function verif_nbr()
 
 {
     echo "yo";
