@@ -13,7 +13,7 @@ require_once('function.php');
 if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     echo "Hello";
 } else {
-    header('Location: index.php?erreur=ok');
+    header('Location: index.php?erreur=ko');
     exit();
 }
 ?>
