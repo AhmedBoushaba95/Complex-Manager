@@ -1,7 +1,12 @@
 <?php
 
-function verif_nbr()
+function verif_nbr($str)
 
 {
-    echo "yo";
+    if(!is_numeric($str))
+    {
+        echo "Veuillez entrer un nombre entier uniquement";
+    }else{
+        echo "yo";
+    }
 }
