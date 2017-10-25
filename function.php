@@ -1,12 +1,12 @@
 <?php
-
-function verif_nbr($str)
+function verif_nbr($str, $str2)
 
 {
-    if(!is_numeric($str))
+    if(!is_numeric($str) && !is_numeric($str2))
     {
-        echo "Veuillez entrer un nombre entier uniquement";
+        echo "Veuillez entrer des nombre entier uniquement";
     }else{
-        echo "yo";
+        echo "Partie réelle:" . $str . "\n";
+        echo "Partie imaginaire:" . $str2 . "\n";
     }
 }
