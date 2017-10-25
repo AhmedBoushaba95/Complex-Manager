@@ -1,0 +1,1 @@
+function verif_nbr(
