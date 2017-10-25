@@ -21,7 +21,7 @@ if ($_GET['erreur'] == "ko")
 
 if ($_GET['erreur'] == "ok")
 {
-    verif_nbr();
+    verif_nbr($_POST);
  }
 ?>
 </body>
