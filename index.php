@@ -11,7 +11,10 @@
     <input type="text" name="ima" placeholder="Imaginaire">
     <input type="submit" value="Afficher">
 </form>
+
 <?php
+
+require_once ('verif_nbr');
 if ($_GET['erreur'] == "ko")
 {
     ?>
