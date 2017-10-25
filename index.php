@@ -7,7 +7,7 @@
 <body>
 
 <form action="corp.php" method="POST">
-    <input type="text" name="ree" placeholder=" ">
+    <input type="text" name="ree" placeholder="Réelle">
     <input type="text" name="ima" placeholder="Imaginaire">
     <input type="submit" value="Afficher">
 </form>
@@ -25,7 +25,7 @@ if ($_GET['erreur'] == "ko")
 
 if ($_GET['erreur'] == "ok")
 {
-   verif_nbr($_POST['ree'], $_POST['ima']);
+   verif_nbr($str, $str2);
  }
 ?>
 </body>
