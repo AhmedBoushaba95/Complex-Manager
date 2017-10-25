@@ -14,7 +14,8 @@
 
 <?php
 
-require_once ('verif_nbr');
+require_once ('function.php');
+
 if ($_GET['erreur'] == "ko")
 {
     ?>
