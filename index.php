@@ -21,10 +21,8 @@ if ($_GET['erreur'] == "ko")
 
 if ($_GET['erreur'] == "ok")
 {
-    ?>
     verif_nbr();
-    <?php
-}
+ }
 ?>
 </body>
 </html>
