@@ -17,12 +17,6 @@ session_start();
 
 <?php
 echo $_SESSION['message'];
-
-if (isset($_SESSION['message'])) {
-
-}else{
-    session_destroy();
-}
 ?>
 </body>
 </html>
