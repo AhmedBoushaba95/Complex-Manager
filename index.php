@@ -16,11 +16,11 @@ session_start();
 </form>
 
 <?php
+echo $_SESSION['message'];
+
 if (isset($_SESSION['message'])) {
-    echo $_SESSION['message'];
 
 }else{
-    session_start();
     session_destroy();
 }
 ?>
