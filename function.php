@@ -8,6 +8,6 @@ function verif_nbr($str, $str2)
 
     } else {
         echo "Veuillez entrer des nombres entier uniquement";
-        echo $str . $str2;
+        echo "yo";
     }
 }
