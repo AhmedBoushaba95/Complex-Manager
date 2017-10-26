@@ -12,15 +12,15 @@ session_start();
 <div class="formu">
     <form method="POST">
         <table>
-            <td>
-                <tr><input type="text" name="ree" placeholder="Réelle"></tr>
-            </td>
-            <td>
-                <tr><input type="text" name="ima" placeholder="Imaginaire"></tr>
-            </td>
-            <td>
-                <tr><input type="submit" value="Afficher"></tr>
-            </td>
+            <tr>
+                <td><input type="text" name="ree" placeholder="Réelle"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="ima" placeholder="Imaginaire"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Afficher"></td>
+            </tr>
         </table>
     </form>
 </div>
