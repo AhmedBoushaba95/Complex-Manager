@@ -20,6 +20,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     <p>Veuillez remplir tous les champs</p>
     <?php
 }
+header('Location: index.php');
 ?>
 </body>
 </html>
