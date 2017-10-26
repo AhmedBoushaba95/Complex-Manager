@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,5 +14,9 @@
     <input type="text" name="ima" placeholder="Imaginaire">
     <input type="submit" value="Afficher">
 </form>
+
+<?php
+echo $_SESSION['message'];
+?>
 </body>
 </html>
