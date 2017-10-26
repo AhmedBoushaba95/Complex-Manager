@@ -9,7 +9,7 @@ session_start();
 </head>
 <body>
 
-<form action="corp.php" method="POST">
+<form method="POST">
     <input type="text" name="ree" placeholder="Réelle">
     <input type="text" name="ima" placeholder="Imaginaire">
     <input type="submit" value="Afficher">
