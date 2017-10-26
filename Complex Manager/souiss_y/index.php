@@ -10,16 +10,24 @@ session_start();
 </head>
 <body>
 <div class="formu">
-<form method="POST">
-    <input type="text" name="ree" placeholder="Réelle">
-    <input type="text" name="ima" placeholder="Imaginaire">
-    <input type="submit" value="Afficher">
-</form>
+    <form method="POST">
+        <table>
+            <td>
+                <tr><input type="text" name="ree" placeholder="Réelle"></tr>
+            </td>
+            <td>
+                <tr><input type="text" name="ima" placeholder="Imaginaire"></tr>
+            </td>
+            <td>
+                <tr><input type="submit" value="Afficher"></tr>
+            </td>
+        </table>
+    </form>
 </div>
 
 <?php
 
-require_once ('function.php');
+require_once('function.php');
 if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
 
     $ree = $_POST['ree'];
