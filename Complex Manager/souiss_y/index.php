@@ -10,6 +10,7 @@ session_start();
 </head>
 <body>
 <div class="formu">
+    <h2>Complex Manger</h2>
     <form method="POST">
         <table>
             <tr>
