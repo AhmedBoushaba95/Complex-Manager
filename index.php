@@ -35,7 +35,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     verif_nbr($ree, $ima);
 } else {
     ?>
-    <p class="formu">Veuillez remplir tous les champs</p>
+    <p class="msg">Veuillez remplir tous les champs</p>
     <?php
 }
 ?>
