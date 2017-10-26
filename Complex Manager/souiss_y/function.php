@@ -1,8 +1,7 @@
 <?php
 function verif_nbr($str, $str2)
 {
-    echo "yo";
-    if (is_numeric($str) == true && is_numeric($str2) == true) {
+    if (is_numeric($str) && is_numeric($str2)) {
         echo "Partie réelle:" . $str . "\n";
         echo "Partie imaginaire:" . $str2 . "\n";
     } else {
