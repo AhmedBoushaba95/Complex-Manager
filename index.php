@@ -8,7 +8,7 @@
 <body>
 <div class="formu">
     <h2>Complex Manager</h2>
-    <form class="champ" method="POST">
+    <form id="champ" method="POST">
         <table>
             <tr>
                 <td><input type="text" name="ree" placeholder="Réelle"></td>
