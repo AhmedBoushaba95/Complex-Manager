@@ -24,17 +24,14 @@ function conj($str, $str2)
         echo "Conjugée:" . $str . $str2 . "i"; ?>
         <br>
         <?php
+    }else if ($str2 > 0) {
+        echo "Conjugée:" . $str . "-" . $str2 . "i"; ?>
+        <br>
+        <?php
     }else{
-
         $str2 = str_replace('+', '-', $str2);
         echo "Conjugée:" . $str . $str2 . "i"; ?>
         <br>
         <?php
-        if ($str2 > 0)
-        {
-            echo "Conjugée:" . $str . "-" . $str2 . "i"; ?>
-            <br>
-            <?php
-        }
     }
 }
