@@ -27,15 +27,12 @@
 
 require_once('function.php');
 if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
-
     $ree = $_POST['ree'];
     $ima = $_POST['ima'];
     verif_nbr($ree, $ima);
     conj($ree, $ima);
 } else {
-    ?>
-    <p class="msg">Veuillez remplir tous les champs</p>
-    <?php
+    echo "Veuillez remplir tous les champs";
 }
 ?>
 </body>
