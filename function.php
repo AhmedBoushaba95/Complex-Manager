@@ -16,3 +16,13 @@ function verif_nbr($str, $str2)
         echo "Veuillez entrer des nombres entier uniquement";
     }
 }
+
+function conj($str, $str2)
+{
+    if ($str2 < 0) {
+        $str2 = str_replace('-', '+', $str2);
+        echo "Conjugée:" . $str . $str2 . "i"; ?>
+        <br>
+        <?php
+    }
+}
