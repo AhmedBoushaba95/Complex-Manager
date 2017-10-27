@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +7,7 @@ session_start();
 </head>
 <body>
 <div class="formu">
-    <h2>Complex Manger</h2>
+    <h2>Complex Manager</h2>
     <form method="POST">
         <table>
             <tr>
