@@ -27,7 +27,6 @@ function conj($str, $str2)
     }else{
 
         $str2 = str_replace('+', '-', $str2);
-        $str2 = str_replace(' ', '-', $str2);
         echo "Conjugée:" . $str . $str2 . "i"; ?>
         <br>
         <?php
