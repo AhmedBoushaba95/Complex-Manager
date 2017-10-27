@@ -8,8 +8,8 @@
 <body>
 <div class="formu">
     <h2>Complex Manager</h2>
-    <form id="champ" method="POST">
-        <table>
+    <form method="POST">
+        <table class="champ">
             <tr>
                 <td><input type="text" name="ree" placeholder="Réelle"></td>
             </tr>
