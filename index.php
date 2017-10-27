@@ -14,7 +14,7 @@
                 <td><input type="text" name="ree" placeholder="Réelle"></td>
             </tr>
             <tr>
-                <td><input type="text" name="ima" placeholder="Imaginaire"><label for="i">i</label></td>
+                <td><input type="text" name="ima" placeholder="Imaginaire"><label for="i"> i</label></td>
             </tr>
             <tr>
                 <td><input type="submit" value="Afficher"></td>
