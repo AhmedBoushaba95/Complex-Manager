@@ -37,6 +37,6 @@ function conj($str, $str2)
             <?php
         }
     }else{
-        echo "Veuillez entrer des nombres entier uniquement";
+        echo "";
     }
 }
