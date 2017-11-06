@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 function verif_nbr($str, $str2)
 {
     $str = str_replace(',', '.', $str);
