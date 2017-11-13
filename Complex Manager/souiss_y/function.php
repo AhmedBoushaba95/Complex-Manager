@@ -44,5 +44,6 @@ function mod($str, $str2)
 {
     $a = $str * $str;
     $b = $str2 * $str2;
-    echo "√$a, $b";
+    $tt = $a + $b;
+    echo "Module: √$tt";
 }
