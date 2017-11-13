@@ -39,3 +39,10 @@ function conj($str, $str2)
         echo "";
     }
 }
+
+function inv($str, $str2)
+{
+    $zb = conj($str, $str2);
+    echo $zb;
+
+}
