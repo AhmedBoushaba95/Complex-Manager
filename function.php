@@ -62,3 +62,15 @@ function arg($str, $str2)
         echo "Un argument de z: θ = " . $re . " rad";
     }
 }
+
+function trig($str, $str2)
+{
+    if (is_numeric($str) && is_numeric($str2)) {
+        $a = $str * $str;
+        $b = $str2 * $str2;
+        $tt = $a + $b;
+        $arg = $str2 / $str;
+        $re = atan($arg);
+        echo "Forme trigonométrique: " . $tt . "(cos(" . $re . ") + isin(" . $re . "))";
+    }
+}
