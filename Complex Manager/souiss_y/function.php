@@ -56,6 +56,6 @@ function arg($str, $str2)
     {
         $arg = $str2/$str;
         $re = atan($arg);
-        echo $re;
+        echo "Un argument de z:" . $re;
     }
 }
