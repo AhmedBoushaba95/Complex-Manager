@@ -46,7 +46,8 @@ function mod($str, $str2)
         $a = $str * $str;
         $b = $str2 * $str2;
         $tt = $a + $b;
-        echo "Module: √$tt";
+        $arr = sqrt($tt);
+        echo "Module: √$tt = $arr";
     }
 }
 
