@@ -47,3 +47,4 @@ function mod($str, $str2)
     $tt = $a + $b;
     echo "Module: √$tt";
 }
+
