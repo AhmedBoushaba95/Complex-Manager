@@ -34,6 +34,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     conj($ree, $ima);
     mod($ree, $ima);
     arg($ree, $ima);
+    trig($ree, $ima);
 } else {
     echo "Veuillez remplir tous les champs";
 }
