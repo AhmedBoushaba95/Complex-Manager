@@ -52,10 +52,11 @@ function mod($str, $str2)
 
 function arg($str, $str2)
 {
-    if(is_numeric($str) && ($str2))
-    {
-        $arg = $str2/$str;
+    if (is_numeric($str) && ($str2)) {
+        $arg = $str2 / $str;
         $re = atan($arg);
-        echo "Un argument de z:" . $re;
+        echo "Un argument de z:" . $re; ?>
+        <br>
+        <?php
     }
 }
