@@ -42,9 +42,11 @@ function conj($str, $str2)
 
 function mod($str, $str2)
 {
-    $a = $str * $str;
-    $b = $str2 * $str2;
-    $tt = $a + $b;
-    echo "Module: √$tt";
+    if(is_numeric($str) && is_numeric($str2)) {
+        $a = $str * $str;
+        $b = $str2 * $str2;
+        $tt = $a + $b;
+        echo "Module: √$tt";
+    }
 }
 
