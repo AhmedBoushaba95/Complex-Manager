@@ -55,8 +55,9 @@ function arg($str, $str2)
     if (is_numeric($str) && ($str2)) {
         $arg = $str2 / $str;
         $re = atan($arg);
-        echo "Un argument de z: θ =" . $re . "rad"?>
+        ?>
         <br>
         <?php
+        echo "Un argument de z: θ = " . $re . " rad";
     }
 }
