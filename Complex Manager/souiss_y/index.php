@@ -39,7 +39,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     inv($ree, $ima);
     expo($ree, $ima);
 } else {
-    echo "Veuillez remplir tous les champs";
+    echo "<p>Veuillez remplir tous les champs</p>";
 }
 ?>
 </body>
