@@ -28,7 +28,7 @@ function inv($str, $str2)
     }
 }
 
-function exp($str, $str2)
+function expo($str, $str2)
 {
     if (is_numeric($str) && is_numeric($str2)) {
         $a = $str * $str;
