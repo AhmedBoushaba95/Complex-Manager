@@ -75,5 +75,8 @@ function trig($str, $str2)
         <br>
         <?php
         echo "Forme trigonométrique: √$tt (cos(" . $re . ") + isin(" . $re . "))";
+        ?>
+        <br>
+        <?php
     }
 }
