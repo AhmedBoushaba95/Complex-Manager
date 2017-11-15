@@ -27,3 +27,17 @@ function inv($str, $str2)
         }
     }
 }
+
+function exp($str, $str2)
+{
+    if (is_numeric($str) && is_numeric($str2)) {
+        $a = $str * $str;
+        $b = $str2 * $str2;
+        $tt = $a + $b;
+        $arr = sqrt($tt);
+        $arg = $str2 / $str;
+        $re = atan($arg);
+        echo "Forme exponentielle: " . $arr . "e" ?> <SUP> <?php echo "i" . $re ?> </SUP> <?php
+        ;
+    }
+}
