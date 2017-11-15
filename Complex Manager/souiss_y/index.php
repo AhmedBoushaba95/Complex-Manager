@@ -31,7 +31,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
 
     $ree = $_POST['ree'];
     $ima = $_POST['ima'];
-    verif_nbr($ree, $ima);
+    echo '<div class="txt">' . verif_nbr($ree, $ima) . '</div>';
     conj($ree, $ima);
     mod($ree, $ima);
     arg($ree, $ima);
@@ -39,7 +39,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     inv($ree, $ima);
     expo($ree, $ima);
 } else {
-    echo "<p>Veuillez remplir tous les champs</p>";
+    echo "Veuillez remplir tous les champs";
 }
 ?>
 </body>
