@@ -18,7 +18,7 @@
                 <td class="i"><input type="text" name="ima" placeholder="Imaginaire"><label for="i"> i</label></td>
             </tr>
             <tr>
-                <td class="aff"><input type="submit" value="Afficher"></td>
+                <td><input type="submit" value="Afficher" class="aff"></td>
             </tr>
         </table>
         </div>
