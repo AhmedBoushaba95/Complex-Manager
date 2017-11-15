@@ -8,6 +8,7 @@
 <body>
 <div class="formu">
     <h2>Complex Manager</h2>
+    <div class="blok">
     <form method="POST">
         <table class="champ">
             <tr>
@@ -21,6 +22,7 @@
             </tr>
         </table>
     </form>
+    </div>
 </div>
 
 <?php
