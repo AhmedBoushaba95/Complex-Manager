@@ -16,7 +16,7 @@ h2{
 table{
     position: absolute;
     left: 28%;
-    border: solid 2px;
+    border: solid 1px;
     border-radius: 10px;
     padding: 2px;
 }
