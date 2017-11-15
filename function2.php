@@ -37,7 +37,6 @@ function expo($str, $str2)
         $arr = sqrt($tt);
         $arg = $str2 / $str;
         $re = atan($arg);
-        echo "Forme exponentielle: " . $arr . "e" ?> <SUP> <?php echo "i" . $re ?> </SUP> <?php
-        ;
+        echo "Forme exponentielle: " . $arr . "e" ?> <SUP> <?php echo "i" . $re ?> </SUP> <?php;
     }
 }
