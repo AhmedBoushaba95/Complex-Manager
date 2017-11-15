@@ -31,7 +31,7 @@ table{
 .i{
     position: absolute;
     left: 2%;
-    top: 200%;
+    top: 150%;
     width: 218%;
 }
 
@@ -44,4 +44,8 @@ table{
 .aff{
     position: relative;
     left: 300%;
+}
+
+label{
+    font-family: American Typewriter, serif;
 }
