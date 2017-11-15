@@ -19,7 +19,5 @@ function inv($str, $str2)
             <br>
             <?php
         }
-    } else {
-        echo "";
     }
 }
