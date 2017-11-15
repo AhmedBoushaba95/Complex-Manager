@@ -31,10 +31,17 @@ table{
 .i{
     position: absolute;
     left: 2%;
+    top: 200%;
+    width: 218%;
 }
 
 .tata{
     width: 50%;
     height: 75%;
     position: absolute;
+}
+
+.aff{
+    position: relative;
+    left: 300%;
 }
