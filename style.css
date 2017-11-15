@@ -1,11 +1,12 @@
 .formu {
-    width: 20%;
-    height: 18%;
+    width: 25%;
+    height: 40%;
     position: absolute;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-align: center;
+    background-color: whitesmoke;
 }
 
 body{
@@ -19,8 +20,5 @@ h2{
 
 table{
     position: absolute;
-    left: 28%;
-    border: solid 1px;
-    border-radius: 10px;
-    padding: 2px;
+    left: 25%;
 }
