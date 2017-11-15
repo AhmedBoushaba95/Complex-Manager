@@ -1,11 +1,16 @@
 .formu {
-    width: 320px;
-    display: inline-block;
+    width: 20%;
+    height: 18%;
     position: absolute;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-align: center;
+}
+
+h2{
+    font-family: Arial, serif;
+    font-size: 200%;
 }
 
 table{
