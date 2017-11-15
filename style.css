@@ -23,28 +23,13 @@ table{
     left: 0;
 }
 
-.r{
-    position: absolute;
-    left: 2%;
+ul li{
+    list-style: none;
 }
-
-.i{
-    position: absolute;
-    left: -20%;
-    top: 150%;
-    width: 218%;
-}
-
 .tata{
     width: 50%;
     height: 75%;
     position: absolute;
-}
-
-.aff{
-    position: relative;
-    left: 300%;
-    font-size: 100%;
 }
 
 label{
