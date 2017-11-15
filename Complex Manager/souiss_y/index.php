@@ -9,6 +9,7 @@
 <div class="formu">
     <h2>Complex Manager</h2>
     <form method="POST">
+        <div class="tata">
         <table class="champ">
             <tr>
                 <td class="r"><input type="text" name="ree" placeholder="Réelle"></td>
@@ -20,6 +21,7 @@
                 <td class="aff"><input type="submit" value="Afficher"></td>
             </tr>
         </table>
+        </div>
     </form>
 </div>
 <?php
