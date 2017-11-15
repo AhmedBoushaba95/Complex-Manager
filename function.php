@@ -5,15 +5,12 @@ function verif_nbr($str, $str2)
     $str = str_replace(',', '.', $str);
     $str2 = str_replace(',', '.', $str2);
     if (is_numeric($str) && is_numeric($str2)) {
-        echo "Partie réelle:" . $str; ?>
-        <br>
-        <?php
-        echo "Partie imaginaire:" . $str2 . "i"; ?>
-        <br>
-        <?php
+        $partree = "Partie réelle:" . $str . "<br>";
+        $partree .= "Partie imaginaire:" . $str2 . "i" . "<br>";
     } else {
-        echo "Veuillez entrer des nombres entier uniquement";
+        $partree = "Veuillez entrer des nombres entier uniquement";
     }
+    return($partree);
 }
 
 function conj($str, $str2)
