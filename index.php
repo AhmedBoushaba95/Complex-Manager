@@ -37,6 +37,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     arg($ree, $ima);
     trig($ree, $ima);
     inv($ree, $ima);
+    expo($ree, $ima);
 } else {
     echo "Veuillez remplir tous les champs";
 }
