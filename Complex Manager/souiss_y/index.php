@@ -10,24 +10,23 @@
     <h2>Complex Manager</h2>
     <form method="POST">
         <div class="tata">
-        <table class="champ">
-            <tr>
-                <td class="r"><input type="text" name="ree" placeholder="Réelle"></td>
-            </tr>
-            <tr>
-                <td class="i"><input type="text" name="ima" placeholder="Imaginaire"><label for="i"> i</label></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Afficher" class="aff"></td>
-            </tr>
-        </table>
+            <ul class="champ">
+                <li class="r">
+                    <input type="text" name="ree" placeholder="Réelle">
+                </li>
+                <li class="i">
+                    <input type="text" name="ima" placeholder="Imaginaire"><label for="i"> i</label>
+                </li>
+                <li class="aff">
+                    <input type="submit" value="Afficher" class="aff">
+                </li>
         </div>
     </form>
 </div>
 <?php
 
 require_once('function.php');
-require_once ('function2.php');
+require_once('function2.php');
 if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
 
     $ree = $_POST['ree'];
