@@ -22,7 +22,6 @@
         </table>
     </form>
 </div>
-
 <?php
 
 require_once('function.php');
