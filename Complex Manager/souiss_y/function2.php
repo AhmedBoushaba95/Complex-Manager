@@ -15,7 +15,7 @@ function inv($str, $str2)
             <?php
         } else {
             $str2i = str_replace('+', '-', $str2);
-            echo "Inverse:" . $str . $str2i . "i / (" . $str . $str2 . "i )(" . $str . "+" . $str2i . "i)"; ?>
+            echo "Inverse:" . $str . $str2i . "i / (" . $str . $str2 . "i )(" . $str . "-" . $str2i . "i)"; ?>
             <br>
             <?php
         }
