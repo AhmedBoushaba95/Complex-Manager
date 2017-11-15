@@ -11,13 +11,13 @@
     <form method="POST">
         <table class="champ">
             <tr>
-                <td><input type="text" name="ree" placeholder="Réelle"></td>
+                <td class="r"><input type="text" name="ree" placeholder="Réelle"></td>
             </tr>
             <tr>
-                <td><input type="text" name="ima" placeholder="Imaginaire"><label for="i"> i</label></td>
+                <td class="i"><input type="text" name="ima" placeholder="Imaginaire"><label for="i"> i</label></td>
             </tr>
             <tr>
-                <td><input type="submit" value="Afficher"></td>
+                <td class="aff"><input type="submit" value="Afficher"></td>
             </tr>
         </table>
     </form>
