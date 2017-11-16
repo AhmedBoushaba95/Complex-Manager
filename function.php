@@ -48,8 +48,7 @@ function mod($str, $str2)
         $a = $str * $str;
         $b = $str2 * $str2;
         $tt = $a + $b;
-        $arr = sqrt($tt);
-        echo "Module: √$tt = " . sprintf("%.3e",$arr);
+        echo "Module: √$tt";
     }
 }
 
