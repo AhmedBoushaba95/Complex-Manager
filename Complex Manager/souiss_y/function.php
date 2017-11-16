@@ -12,7 +12,7 @@ function verif_nbr($str, $str2)
         <br>
         <?php
     } else {
-        echo "Veuillez entrer des nombres entier uniquement"; ?>
+        echo "Veuillez entrer des nombres uniquement"; ?>
         <br>
         <?php
     }
