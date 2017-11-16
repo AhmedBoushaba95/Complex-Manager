@@ -61,7 +61,15 @@
             ctx.strokeText("-10",3,245);
             var ree = '<?php echo $ree ?>';
             var ima = '<?php echo $ima ?>';
-            ctx.strokeText("x", ree, ima);
+            var cordX = 250;
+            var cordY = 250;
+            var corya = 25 * ree;
+            var corxa = 25 * ima;
+            cordX = cordX + corxa;
+            cordY = cordY - corya;
+
+
+            ctx.strokeText("x", cordY, cordX);
             ctx.stroke();
         </script>
 </div>
