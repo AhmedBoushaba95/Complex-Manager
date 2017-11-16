@@ -67,9 +67,7 @@
             var corxa = 25 * ima;
             cordX = cordX - corxa;
             cordY = cordY + corya;
-
-
-            ctx.strokeText(".", cordY, cordX);
+            ctx.strokeText("*", cordY, cordX);
             ctx.stroke();
         </script>
 </div>
