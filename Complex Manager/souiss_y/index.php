@@ -24,7 +24,8 @@
     </form>
 </div>
 <?php
-
+echo "bponour";
+die();
 require_once('function.php');
 require_once('function2.php');
 if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
@@ -38,6 +39,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     trig($ree, $ima);
     inv($ree, $ima);
     expo($ree, $ima);
+
 } else {
     echo "Veuillez remplir tous les champs";
 }
