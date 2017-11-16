@@ -44,8 +44,27 @@
         echo '</div>';
     }
     ?>
-    <canvas id="myCanvas" width="400" height="400" style="">
-    </canvas>
+    <canvas id="myCanvas" width="500" height="500">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+    <p>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(250,0);
+            ctx.lineTo(250,1500);
+            ctx.moveTo(0,250);
+            ctx.lineTo(500,250);
+            ctx.font = "12px Arial";
+            ctx.strokeText("-10",255,495);
+            ctx.strokeText("10",255,12);
+            ctx.strokeText("10",482,245);
+            ctx.strokeText("-10",3,245);
+            var ree = '<?php echo $ree ?>';
+            var ima = '<?php echo $ima ?>';
+            ctx.strokeText(ree, 0,250);
+            ctx.strokeText(ima, 180,200);
+            ctx.stroke();
+        </script>
 </div>
 <body>
 </body>
