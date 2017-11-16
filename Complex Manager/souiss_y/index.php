@@ -25,7 +25,7 @@
 </div>
 <?php
 require_once('function.php');
-require_once('function2.php');
+/*require_once('function2.php');*/
 echo "bponour";
 die();
 if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
