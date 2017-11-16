@@ -26,7 +26,6 @@
 <?php
 require_once('function.php');
 require_once('function2.php');
-echo "bpnjopur";
 if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
 
     $ree = $_POST['ree'];
