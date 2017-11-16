@@ -61,7 +61,7 @@ function arg($str, $str2)
         ?>
         <br>
         <?php
-        echo "Un argument de z: θ = " . $re . " rad";
+        echo "Un argument de z: θ = " . sprintf("%.3e",$re) . " rad";
     }
 }
 
