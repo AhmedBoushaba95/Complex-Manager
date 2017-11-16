@@ -40,3 +40,4 @@ function expo($str, $str2)
         echo "Forme exponentielle: " . $arr . "e" ?> <SUP> <?php echo "i" . $re ?> </SUP> <?php;
     }
 }
+echo "fonction2";
