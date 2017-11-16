@@ -54,13 +54,6 @@
             ctx.lineTo(250,500);
             ctx.moveTo(0,250);
             ctx.lineTo(500,250);
-            while (i <= 500){
-                ctx.moveTo(190, i);
-                ctx.lineTo(210, i);
-                ctx.moveTo(i, 190);
-                ctx.lineTo(i, 210);
-                i = i + 20;
-            }
             ctx.font = "12px Arial";
             ctx.strokeText("-10",255,495);
             ctx.strokeText("10",255,12);
