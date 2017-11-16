@@ -1,7 +1,5 @@
 <?php
 
-echo "bonjour";
-die();
 function inv($str, $str2)
 {
     if (is_numeric($str) && is_numeric($str2)) {
@@ -29,6 +27,8 @@ function inv($str, $str2)
         }
     }
 }
+echo "bonjour";
+die();
 
 function expo($str, $str2)
 {
