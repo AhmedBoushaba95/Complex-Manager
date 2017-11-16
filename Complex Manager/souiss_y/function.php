@@ -49,7 +49,7 @@ function mod($str, $str2)
         $b = $str2 * $str2;
         $tt = $a + $b;
         $arr = sqrt($tt);
-        echo "Module: √$tt = $arr";
+        echo "Module: √$tt = sprintf(\"%.3e\",$arr)";
     }
 }
 
