@@ -31,7 +31,6 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
 
     $ree = $_POST['ree'];
     $ima = $_POST['ima'];
-    /*echo '<div class="txt">' . verif_nbr($ree, $ima) . '</div>';*/
     verif_nbr($ree, $ima);
     conj($ree, $ima);
     mod($ree, $ima);
