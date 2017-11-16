@@ -69,7 +69,7 @@
             cordY = cordY + corya;
 
 
-            ctx.strokeText("x", cordY, cordX);
+            ctx.strokeText(".", cordY, cordX);
             ctx.stroke();
         </script>
 </div>
