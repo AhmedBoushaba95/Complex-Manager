@@ -54,3 +54,10 @@ label{
     top: 25%;
     left: 1%;
 }
+
+#myCanvas{
+    position: absolute;
+    bottom: 4%;
+    left: 20%;
+    border: 1px solid dimgrey;
+}
