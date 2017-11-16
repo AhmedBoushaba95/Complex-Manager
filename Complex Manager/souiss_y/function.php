@@ -82,4 +82,3 @@ function trig($str, $str2)
         <?php
     }
 }
-echo "fonction";
