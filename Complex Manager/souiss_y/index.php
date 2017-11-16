@@ -51,7 +51,7 @@
             var c = document.getElementById("myCanvas");
             var ctx = c.getContext("2d");
             ctx.moveTo(250,0);
-            ctx.lineTo(250,0);
+            ctx.lineTo(250,500);
             ctx.moveTo(0,250);
             ctx.lineTo(500,250);
             ctx.font = "12px Arial";
