@@ -61,8 +61,7 @@
             ctx.strokeText("-10",3,245);
             var ree = '<?php echo $ree ?>';
             var ima = '<?php echo $ima ?>';
-            ctx.strokeText(ree, 0,250);
-            ctx.strokeText(ima, 180,200);
+            ctx.strokeText("x", ree, ima);
             ctx.stroke();
         </script>
 </div>
