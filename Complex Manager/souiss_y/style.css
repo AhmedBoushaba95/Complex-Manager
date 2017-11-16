@@ -49,5 +49,7 @@ label{
     z-index: 999;
     color: gray;
     font-family: Arial, serif;
+    text-align: left;
     position: absolute;
+    top: 45%;
 }
