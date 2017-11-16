@@ -53,7 +53,7 @@
             ctx.moveTo(250,0);
             ctx.lineTo(250,1500);
             ctx.moveTo(0,250);
-            ctx.lineTo(500,250);
+            ctx.lineTo(1500,250);
             ctx.font = "12px Arial";
             ctx.strokeText("-10",255,495);
             ctx.strokeText("10",255,12);
