@@ -36,6 +36,6 @@ function expo($str, $str2)
         $tt = $a + $b;
         $arg = $str2 / $str;
         $re = atan($arg);
-        echo "Forme exponentielle: √$tt e <SUP>  i" . sprintf("%.3e",$re) . "</SUP>";
+        echo "Forme exponentielle: √$tt" . "e <SUP>  i" . sprintf("%.3e",$re) . "</SUP>";
 
 }
