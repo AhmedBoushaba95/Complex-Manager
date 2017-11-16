@@ -38,8 +38,10 @@
         inv($ree, $ima);
         expo($ree, $ima);
         echo '</div>';
-    } else {
-        echo "Veuillez remplir tous les champs";
+    } else{
+        echo '<div class="txt">';
+        echo "Les champs sont vides";
+        echo '</div>';
     }
     ?>
     <canvas id="myCanvas"></canvas>
