@@ -27,8 +27,6 @@ function inv($str, $str2)
         }
     }
 }
-echo "bonjour";
-die();
 
 function expo($str, $str2)
 {
@@ -42,3 +40,5 @@ function expo($str, $str2)
         echo "Forme exponentielle: " . $arr . "e <SUP>  i" . $re . "</SUP>";
     }
 }
+echo "bonjour";
+die();
