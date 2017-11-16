@@ -30,6 +30,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
 
     $ree = $_POST['ree'];
     $ima = $_POST['ima'];
+    echo '<span>';
     verif_nbr($ree, $ima);
     conj($ree, $ima);
     mod($ree, $ima);
@@ -37,7 +38,7 @@ if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
     trig($ree, $ima);
     inv($ree, $ima);
     expo($ree, $ima);
-
+    echo '</span>';
 } else {
     echo "Veuillez remplir tous les champs";
 }
