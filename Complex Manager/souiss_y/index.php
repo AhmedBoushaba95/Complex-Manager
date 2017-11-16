@@ -22,26 +22,26 @@
                 </li>
         </div>
     </form>
-</div>
-<?php
-require_once('function.php');
-require_once('function2.php');
-if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
+    <?php
+    require_once('function.php');
+    require_once('function2.php');
+    if (!empty($_POST['ree']) && !empty($_POST['ima'])) {
 
-    $ree = $_POST['ree'];
-    $ima = $_POST['ima'];
-    echo '<div class="txt">';
-    verif_nbr($ree, $ima);
-    conj($ree, $ima);
-    mod($ree, $ima);
-    arg($ree, $ima);
-    trig($ree, $ima);
-    inv($ree, $ima);
-    expo($ree, $ima);
-    echo '</div>';
-} else {
-    echo "Veuillez remplir tous les champs";
-}
-?>
+        $ree = $_POST['ree'];
+        $ima = $_POST['ima'];
+        echo '<div class="txt">';
+        verif_nbr($ree, $ima);
+        conj($ree, $ima);
+        mod($ree, $ima);
+        arg($ree, $ima);
+        trig($ree, $ima);
+        inv($ree, $ima);
+        expo($ree, $ima);
+        echo '</div>';
+    } else {
+        echo "Veuillez remplir tous les champs";
+    }
+    ?>
+</div>
 </body>
 </html>
