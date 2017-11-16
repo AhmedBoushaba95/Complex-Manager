@@ -40,5 +40,3 @@ function expo($str, $str2)
         echo "Forme exponentielle: " . $arr . "e <SUP>  i" . $re . "</SUP>";
     }
 }
-echo "bonjour";
-die();
